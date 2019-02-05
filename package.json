@@ -1,28 +1,22 @@
 {
-  "name": "vue-cli-plugin-auto-routing",
-  "version": "0.2.1",
-  "description": "Vue CLI plugin that provides auto routing feature",
+  "name": "vue-cli-plugin-ucsb",
+  "version": "0.0.1",
+  "description": "Vue CLI plugin for ucsb",
   "files": [
     "index.js",
     "generator"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktsn/vue-cli-plugin-auto-routing.git"
+    "url": "git+https://github.com/agrublev/vue-cli-plugin-ucsb.git"
   },
   "keywords": [
     "Vue",
     "Vue CLI",
-    "plugin",
-    "routing",
-    "auto routing"
+    "plugin"
   ],
   "author": "katashin",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ktsn/vue-cli-plugin-auto-routing/issues"
-  },
-  "homepage": "https://github.com/ktsn/vue-cli-plugin-auto-routing#readme",
   "scripts": {
     "lint": "eslint lib test && prettier -l \"**/*.js\"",
     "format": "prettier --write \"**/*.js\"",
